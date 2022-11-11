@@ -1,4 +1,7 @@
-## Automação
+<p align="center" width="100%">
+    <img width="300" src="img/ec2.jpg"> 
+</p>
 
-# Criação de Instancia EC2 na AWS #
+&nbsp;
 
+# <center>**Amazon Ec2**</center>
