@@ -10,8 +10,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "backend-iaas-tfstates-terraform"
-    key    = "aws/us-west-2/ec2/terraform.tfstate"
+    bucket = "SUA-BUCKET-S3"
+    key    = "aws/ec2/terraform.tfstate"
     region = "us-east-2"
   }
 }
