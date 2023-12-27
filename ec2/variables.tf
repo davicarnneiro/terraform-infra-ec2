@@ -1,7 +1,7 @@
 variable "region" {
   type        = string
   description = "Define what region the instance will be deployed"
-  default     = "us-east-2"
+  default     = "SUA-REGIÃO"
 }
 
 variable "env" {
@@ -13,7 +13,7 @@ variable "env" {
 variable "ami" {
   type        = string
   description = "AWS AMI to be used "
-  default     = "ami-0fb653ca2d3203ac1"
+  default     = "SUA-AMI"
 }
 
 variable "instance_type" {
@@ -25,19 +25,19 @@ variable "instance_type" {
 variable "vpc_id" {
   type        = string
   description = "Define a VPC"
-  default     = "vpc-08c01277098e511cb"
+  default     = "SUA-VPC"
 }
 
 variable "subnet_id" {
   type        = string
   description = "Defines the subnet to be used in the infrastructure"
-  default     = "subnet-007e8cef1eebcb8d4"
+  default     = "SUA-SUBNET"
 }
 
 variable "key_name" {
   type        = string
   description = "Defines the ssh key to be used in the infrastructure"
-  default     = "devops"
+  default     = "SUA-CHAVE-PEM"
 }
 
 variable "associate_public_ip_address" {
